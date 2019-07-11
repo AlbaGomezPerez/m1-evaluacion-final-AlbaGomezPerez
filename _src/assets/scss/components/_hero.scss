@@ -1,17 +1,36 @@
-// .hero-background {
-//   background-color: yellow;
 
-//   background-image: url(public/assets/images/cover.jpg)
-//   }
-.hero-background {
-  background-image: url(../images/cover.jpg);
-  background-size: cover;
-  background-position: center;
 
-  min-height: 100vh;
-}
-  .hero-title {
-    color: blue;
+
+  .hero-background {
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
   }
+
+  .hero-title {
+    color: white;
+    width: 290px;
+    height: 110px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    display: block;
+  }
+
+  .hero-subtitle {
+    display: block;
+    text-align: center;
+  }
+
+  // .central-container {
+  //   margin: 0 15px;
+  //   background-color: #0271bc;
+  // }
 
 
