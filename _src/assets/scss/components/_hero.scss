@@ -1,0 +1,17 @@
+// .hero-background {
+//   background-color: yellow;
+
+//   background-image: url(public/assets/images/cover.jpg)
+//   }
+.hero-background {
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+
+  min-height: 100vh;
+}
+  .hero-title {
+    color: blue;
+  }
+
+

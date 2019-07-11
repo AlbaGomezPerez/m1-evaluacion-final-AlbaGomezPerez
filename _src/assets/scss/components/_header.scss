@@ -1,14 +1,18 @@
-.nav-header {
-  background-color: red;
-  width: 100vw;
-  height:100vh;
-}
+// .nav-header {
+//   background-color: red;
+//   width: 100vw;
+//   height:100vh;
+//   visibility: hidden;
+// }
+// quizas sacando la hamburguesa del nav header
 
 .nav-logo-background {
   background-color: #0271bc;
   height: 44px;
   width: 44px;
   position:fixed;
+  top: 0;
+  left: 0;
 }
 
 .nav-logo {
