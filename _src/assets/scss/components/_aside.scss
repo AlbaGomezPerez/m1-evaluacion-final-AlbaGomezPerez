@@ -1,14 +1,23 @@
 .aside-contain-list {
   list-style: none;
+  padding: 0;
 }
 
 .aside-contain {
-  background-color: pink;
+  background-color: #eff9ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .aside-title {
   margin: 0;
-}
+  text-align: center;
+  vertical-align: middle;
+  padding:0;
+  width: 290px;
+  }
 
 .aside-detail-button {
   width: 124px;
@@ -20,11 +29,35 @@
   font-stretch: normal;
   line-height: 2.25;
   text-align: center;
-  background-color: red;
+  background-color:#f26002;
+  color: white;
   border: none;
   border-radius: 30px;
   padding: 0;
+
 }
+.aside-list1{
+  text-align: center;
+  vertical-align: middle;
+  padding:0;
+  width: 180px;
+}
+
+.aside-list2{
+  text-align: center;
+  vertical-align: middle;
+  padding:0;
+  width: 180px;
+}
+
+.aside-list3{
+  text-align: center;
+  vertical-align: middle;
+  padding:0;
+  width: 180px;
+}
+
+
 
 .aside-detail{
 

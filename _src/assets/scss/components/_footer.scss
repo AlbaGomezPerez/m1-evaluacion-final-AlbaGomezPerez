@@ -1,5 +1,12 @@
+
 .footer-background {
-  background-color: aquamarine;
+  background-color: #304268;
+  display: flex;
+  flex-direction: column;
+  min-height: 50vw;
+  width: auto;
+  align-items: center;
+  bottom: 0;
 }
 
 .footer-detail {
@@ -13,4 +20,14 @@
 }
 .footer-detail-arrow{
   text-align: center;
+}
+
+.footer-container-list{
+  list-style: none;
+  text-align: center;
+  vertical-align: middle;
+  padding:0;
+}
+.heart{
+  color: red;
 }
