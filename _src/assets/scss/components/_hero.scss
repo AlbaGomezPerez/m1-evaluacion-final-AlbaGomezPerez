@@ -1,5 +1,8 @@
 
 
+.hero-section{
+  text-align: center;
+}
 
 .hero-background {
   background-image: url(../images/cover.jpg);
@@ -10,18 +13,28 @@
   text-align: center;
 }
 
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vw;
+  width: auto;
+  align-items: center;
+  bottom: 0;
+  // position: absolute;
+  transform: translateY(50vh);
+}
+
 .hero-title {
   color: white;
   width: 290px;
   height: 110px;
-  margin: auto;
-  margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
   font-family:'Roboto', sans-serif;
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
+
   // transform: translateY(50%);
 }
 
