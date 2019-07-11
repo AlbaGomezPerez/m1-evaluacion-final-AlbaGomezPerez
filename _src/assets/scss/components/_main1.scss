@@ -9,3 +9,15 @@
 .main1-pretitle {
   margin: 0;
 }
+
+.main1-detail {
+  background-color: red;
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  // border: solid 2px var(--bright-orange);
+}
+
+.main1-detail:hover {
+  background: #6b8f1a;
+}
