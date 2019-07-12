@@ -57,9 +57,49 @@
   width: 180px;
 }
 
+// TABLET & DESKTOP
 
+@media all and (min-width:768px){
+  .aside-contain-list {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:45px 1fr 45px;
+    margin:45px;
+  }
 
-.aside-detail{
+  .aside-title {
+    margin: auto;
+  }
 
-  // color: var(--white);
+  .aside-list0{
+    grid-column:1/4;
+    grid-row:1/2;
+  }
+
+  .aside-list1 {
+    grid-column:1/2;
+    grid-row:2/3;
+  }
+
+  .aside-list2 {
+    grid-column:2/3;
+    grid-row:2/3;
+  }
+
+  .aside-list3 {
+    grid-column:3/4;
+    grid-row:2/3;
+  }
+
+  .aside-list4{
+    grid-column:1/4;
+    grid-row:3/4;
+    text-align: center;
+    margin: auto;
+  }
+
+  .aside-detail-button{
+    grid-column:1/4;
+    grid-row:3/4;
+  }
 }

@@ -32,6 +32,7 @@
   color: red;
 }
 
+// error
 .footer-text {
   padding-top: 60px;
 }
@@ -51,3 +52,29 @@
   font-size: 14px;
   font-family: 'Roboto', serif;
 }
+// error
+
+@media all and (min-width:768px){
+  .footer-grid-container {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 50px;
+    transform: translateX(30px);
+    margin-top: 45px;
+  }
+  .footer-container-list {
+    grid-column:2/3;
+    grid-row:1/2;
+    text-align: left;
+  }
+.footer-networks {
+  grid-column:3/4;
+  grid-row:1/2;
+}
+.footer-grid-copy-love {
+  grid-column:1/2;
+  grid-row:1/2;
+}
+  }
+// error
