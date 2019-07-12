@@ -9,7 +9,6 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  // height: 568px;
   justify-content: center;
   text-align: center;
 }
@@ -64,11 +63,6 @@
   justify-content: center;
 }
 
-// .central-container {
-  //   margin: 0 15px;
-  //   background-color: #0271bc;
-  // }
-
   @keyframes palpitation {
     from { transform: translateY(-25px); }
       50% { transform: scale(1.4); }
@@ -82,6 +76,22 @@
   .hero-detail:hover {
       background-image:(linear-gradient(top, rgba(198,247,245,1) 0%, rgba(48,66,104,1) 61%, rgba(48,66,104,1) 100%));
     }
+
+
+  @media all and (min-width:768px){
+    .hero-text-container {
+      transform: translateY(45vw);
+    }
+    .hero-title {
+      font-size: 80px;
+      width: 690px;
+      line-height:106px;
+    }
+    .hero-subtitle {
+      font-size: 24px;
+      margin-top:20px;
+  }
+}
 
 
 
