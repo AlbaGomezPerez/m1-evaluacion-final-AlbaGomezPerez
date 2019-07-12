@@ -1,14 +1,20 @@
 .aside-contain-list {
   list-style: none;
   padding: 0;
-}
-
-.aside-contain {
-  background-color: #eff9ff;
+  margin:0;
+  height: 624px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.aside-contain {
+  background-color: #eff9ff;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
 }
 
 .aside-title {
@@ -17,12 +23,15 @@
   vertical-align: middle;
   padding:0;
   width: 290px;
+  font-size: 24px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
   }
 
 .aside-detail-button {
-  width: 124px;
+  width: 184px;
   height: 45px;
-  font-family: Roboto;
+  font-family: 'Roboto', serif;
   font-size: 20px;
   font-weight: 500;
   font-style: normal;
@@ -56,6 +65,18 @@
   padding:0;
   width: 180px;
 }
+
+.aside-detail-button:hover {
+  border: solid 2px #f26002;
+  background-image:(linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(242,98,2,1) 68%, rgba(242,98,2,1) 100%));
+  width: 194px;
+  height: 55px;
+}
+
+.main1-detail:hover {
+  font-size: 26px;
+}
+
 
 // TABLET & DESKTOP
 

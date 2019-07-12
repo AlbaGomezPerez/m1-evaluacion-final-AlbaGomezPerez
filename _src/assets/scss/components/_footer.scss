@@ -17,7 +17,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translateY(-25px)
 }
+
+.footer-grid-container{
+  min-height: 50vw;
+}
+
+.footer-text{
+  padding-bottom: 30px;
+}
+
+.footer-networks{
+  padding-bottom: 30px;
+}
+
+.footer-copy{
+  padding-bottom: 10px;
+}
+
+.love-text{
+  padding-bottom: 45px;
+}
+
+// ANIMATION
+@keyframes palpitation {
+  from { transform: translateY(-25px); }
+    50% { transform: scale(1.4); }
+    to { transform: translateY(-25px); }
+}
+.footer-detail{
+  animation: palpitation .6s infinite;
+  transform-origin: center;
+}
+
+.footer-detail:hover {
+  background-image:(linear-gradient(top, rgba(198,247,245,1) 0%, rgba(48,66,104,1) 61%, rgba(48,66,104,1) 100%));
+}
+
+// ANIMATION
 .footer-detail-arrow{
   text-align: center;
 }
@@ -27,25 +65,29 @@
   text-align: center;
   vertical-align: middle;
   padding:0;
+  font-family: 'Roboto', serif;
+  font-size: 16px;
 }
 .heart{
-  color: red;
+  color:#f26002;
 }
 
 // error
 .footer-text {
-  padding-top: 60px;
+  // padding-top: 30px;
 }
 
 .footer-networks {
-  padding-top: 30px;
+  // padding-top: 15px;
 }
 
 .footer-copy {
-  padding-top: 30px;
+  // padding-bottom: 75px;
   margin: 0;
   font-size: 14px;
   font-family: 'Roboto', serif;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .love-text {

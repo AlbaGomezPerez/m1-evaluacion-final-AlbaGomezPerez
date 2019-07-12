@@ -69,6 +69,20 @@
   //   background-color: #0271bc;
   // }
 
+  @keyframes palpitation {
+    from { transform: translateY(-25px); }
+      50% { transform: scale(1.4); }
+      to { transform: translateY(-25px); }
+  }
+  .hero-detail{
+    animation: palpitation .6s infinite;
+    transform-origin: center;
+  }
+
+  .hero-detail:hover {
+      background-image:(linear-gradient(top, rgba(198,247,245,1) 0%, rgba(48,66,104,1) 61%, rgba(48,66,104,1) 100%));
+    }
+
 
 
 
