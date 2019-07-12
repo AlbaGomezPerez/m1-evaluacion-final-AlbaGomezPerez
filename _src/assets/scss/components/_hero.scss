@@ -94,6 +94,22 @@
 
 }
 
+@media all and (min-width:1200px){
+  .hero-text-container {
+    transform: translateY(20vw);
+    line-height:106px;
+  }
+  .hero-title {
+    font-size: 100px;
+    width: 690px;
+  }
+  .hero-subtitle {
+    font-size: 24px;
+    padding-top:50px;
+}
+
+}
+
 
 
 
