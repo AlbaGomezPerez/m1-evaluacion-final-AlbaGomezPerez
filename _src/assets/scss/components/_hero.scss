@@ -9,6 +9,7 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  // height: 568px;
   justify-content: center;
   text-align: center;
 }
@@ -19,11 +20,10 @@
   min-height: 50vw;
   width: auto;
   align-items: center;
-  bottom: 170px;
   position: absolute;
   left:0;
   right: 0;
-  // transform: translateY(50vw);
+  transform: translateY(90vw);
 }
 
 .hero-title {
