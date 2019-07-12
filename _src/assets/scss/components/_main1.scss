@@ -64,3 +64,16 @@
 .main1-detail:hover {
   color: white;
 }
+
+@media all and (min-width:768px){
+  .main1-title {
+    width: 690px;
+    font-size: 26px;
+}
+.main1-text {
+    width: 600px;
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+}
