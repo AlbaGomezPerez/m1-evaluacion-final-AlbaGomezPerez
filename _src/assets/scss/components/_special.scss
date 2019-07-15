@@ -1,0 +1,40 @@
+
+.special-contain {
+  background-color: $orange;
+  color: $white;
+  display: none;
+}
+
+.special-title{
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.special-subtitle{
+  margin: 0;
+}
+
+@media all and (min-width:768px){
+  .special-contain {
+    display: block;
+  }
+  .special-contain-tablet {
+    display: flex;
+    justify-content: space-between;
+  }
+  .special-paragraph{
+    margin: 0;
+    width: 50%;
+  }
+  .special-title{
+    transition: color ease 1s;
+
+    &:hover{
+      color: black;
+    }
+  }
+}
+
+
+
+
