@@ -18,7 +18,7 @@
   // align-items: center;
 }
 .aside-subtitles{
-  font-size: 18px;
+  font-size: $mobile-big;
 }
 .aside-list0{
   text-align: center;
@@ -30,17 +30,16 @@
   padding:0;
   padding-top: 30px;
   width: 290px;
-  font-size: 24px;
+  font-size: $title-mobile;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
-
   }
 
 .aside-detail-button {
   width: 184px;
   height: 45px;
   font-family: 'Roboto', serif;
-  font-size: 20px;
+  font-size: $mobile-extra;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -151,7 +150,7 @@
 // GRID
   .aside-title {
     width: 450px;
-    font-size: 26px;
+    font-size: $title-tablet;
     padding-top: 30px;
     }
 
@@ -162,7 +161,7 @@
   }
 
   .aside-subtitles{
-    font-size: 24px;
+    font-size: $tablet-medium;
     width: 200px;
     padding-top: 24px;
 
@@ -171,8 +170,4 @@
     height: 397px;
   }
 
-
-// .main1-detail:hover {
-//   font-size: 26px;
-// }
 }

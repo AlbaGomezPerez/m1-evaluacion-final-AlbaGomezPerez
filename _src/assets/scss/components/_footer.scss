@@ -66,7 +66,7 @@
   vertical-align: middle;
   padding:0;
   font-family: 'Roboto', serif;
-  font-size: 16px;
+  font-size: $mobile-medium;
 }
 .heart{
   color:#f26002;
@@ -74,14 +74,14 @@
 
 
 .footer-text {
-  font-size: 16px;
+  font-size: $mobile-medium;
   font-family: 'Roboto', serif;
   color:white;
   text-transform: uppercase;
 }
 
 .footer-networks {
-  font-size: 16px;
+  font-size: $mobile-medium;
   font-family: 'Roboto', serif;
   color:white;
   text-transform: uppercase;
@@ -89,7 +89,7 @@
 
 .footer-copy {
   margin: 0;
-  font-size: 14px;
+  font-size: $mobile-little;
   font-family: 'Roboto', serif;
   text-align: center;
   vertical-align: middle;
@@ -97,7 +97,7 @@
 }
 
 .love-text {
-  font-size: 14px;
+  font-size: $mobile-little;
   font-family: 'Roboto', serif;
   color:white;
 }
@@ -114,7 +114,7 @@
 
   .footer-grid-copy-love{
     order:1;
-    padding-left: 15px;
+    padding-left: $tablet-mini;
   }
 
   .footer-container-list{

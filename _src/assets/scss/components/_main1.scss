@@ -8,12 +8,12 @@
   padding-left: 15px;
   padding-bottom: 30px;
   font-family: 'Roboto', serif;
-  font-size: 18px;
+  font-size: $mobile-big;
 }
 
 .main1-pretitle {
   color: #8ccbea;
-  font-size:14px;
+  font-size:$mobile-little;
   font-family: 'Roboto', serif;
   margin: 0;
   padding-top: 30px;
@@ -28,7 +28,7 @@
   padding-bottom: 5px;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: $title-mobile;
 }
 
 .main1-container-detail {
@@ -52,7 +52,7 @@
   padding-right: 25px;
   color:#f26002;
   font-family: 'Roboto Slab', serif;
-  font-size: 20px;
+  font-size: $mobile-extra;
   text-transform: uppercase;
 }
 
@@ -68,11 +68,11 @@
 @media all and (min-width:768px){
   .main1-title {
     width: 690px;
-    font-size: 26px;
+    font-size: $title-tablet;
 }
 .main1-text {
     width: 600px;
-    font-size: 20px;
+    font-size: $tablet-little;
     padding-top: 30px;
   }
 
@@ -80,10 +80,10 @@
 @media all and (min-width:1200px){
   .main1-title {
     width: 690px;
-    font-size: 32px;
+    font-size: $desktop-medium;
 }
   .main1-pretitle {
-    font-size:16px;
+    font-size: $desktop-little;
 }
 .space-contain {
   padding-left: 275px;

@@ -13,42 +13,28 @@ $black: #000000;
 $Font1:'Roboto', serif;
 $Font2:'Roboto Slab', serif;
 
-$size1: 42px;
-$font-size2:24px;
-$font-size3: 18px;
-$font-size4:16px;
-$font-size5:14px;
-$font-bottom:20px;
-$font-copy:14px;
-
-
 
 // MOVIL
-// aside-subtitles (18)
-// aside title 24
-// botton aside 20
-// footer  16
-// love 14
-// title hero 42
-// hero subtitle 16
-// main text 18
-// main pretitle 14
-// main title 24
-// detail 20
+$title-mobile: 24px; // aside title 24 // main title 24
+$title-mobile-hero: 42px; // title hero 42
+$mobile-extra: 20px; // botton aside 20 // detail 20
+$mobile-big: 18px; // aside-subtitles (18) // main text 18
+$mobile-medium: 16px; // footer  16 // hero subtitle 16
+$mobile-little: 14px; // love 14 // main pretitle 14 // copy
+
+
 
 // TABLET
-// aside title 26
-// aside-subtitles 24
-// aside paraprah 24
-// title hero 80
-// hero subtitle 24
-// main title 26
-// main text 20
+$title-tablet-hero: 80px; // title hero 80
+$title-tablet: 26px; // aside title 26 // main title 26
+$tablet-medium: 24px; // aside-subtitles 24 // aside paraprah 24 // hero subtitle 24
+$tablet-little: 20px; // main text 20
+$tablet-mini: 15px; // love and copy
 
 // DESKTOP
-// title hero 100
-// main title 32
-// main pretitle 16
+$title-desktop-hero: 100px; // title hero 100
+$desktop-medium: 32px; // main title 32
+$desktop-little: 16px; // main pretitle 16
 
 
 
