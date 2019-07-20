@@ -26,7 +26,7 @@
 }
 
 .hero-title {
-  color: white;
+  color: $white;
   width: 290px;
   height: 110px;
   text-align: center;
@@ -46,14 +46,14 @@
   vertical-align: middle;
   font-family: $Font1;
   font-size: $mobile-medium;
-  color: white;
+  color: $white;
   margin-top:10px;
   margin-bottom: 45px;
 
 }
 
 .hero-detail {
-  background-color:white;
+  background-color: $white;
   width: 45px;
   height: 45px;
   border-radius: 22.5px;

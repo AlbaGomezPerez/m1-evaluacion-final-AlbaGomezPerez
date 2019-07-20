@@ -1,6 +1,6 @@
 
 .footer-background {
-  background-color: #304268;
+  background-color: $dark-blue;
   display: flex;
   flex-direction: column;
   min-height: 50vw;
@@ -10,7 +10,7 @@
 }
 
 .footer-detail {
-  background-color: white;
+  background-color: $white;
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
@@ -69,21 +69,21 @@
   font-size: $mobile-medium;
 }
 .heart{
-  color:#f26002;
+  color: $orange;
 }
 
 
 .footer-text {
   font-size: $mobile-medium;
   font-family: $Font1;
-  color:white;
+  color: $white;
   text-transform: uppercase;
 }
 
 .footer-networks {
   font-size: $mobile-medium;
   font-family: $Font1;
-  color:white;
+  color: $white;
   text-transform: uppercase;
 }
 
@@ -93,13 +93,13 @@
   font-family: $Font1;
   text-align: center;
   vertical-align: middle;
-  color:white;
+  color: $white;
 }
 
 .love-text {
   font-size: $mobile-little;
   font-family: $Font1;
-  color:white;
+  color: $white;
 }
 // error
 
