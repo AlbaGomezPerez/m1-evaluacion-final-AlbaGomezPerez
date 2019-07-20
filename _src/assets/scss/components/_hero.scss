@@ -31,7 +31,7 @@
   height: 110px;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Roboto Slab', serif;
+  font-family: $Font2;
   font-weight: bold;
   font-size: $title-mobile-hero;
   text-align: center;
@@ -44,7 +44,7 @@
 .hero-subtitle {
   text-align: center;
   vertical-align: middle;
-  font-family: 'Roboto', serif;
+  font-family: $Font1;
   font-size: $mobile-medium;
   color: white;
   margin-top:10px;

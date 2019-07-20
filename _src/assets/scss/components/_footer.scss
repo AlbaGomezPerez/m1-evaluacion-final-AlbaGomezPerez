@@ -65,7 +65,7 @@
   text-align: center;
   vertical-align: middle;
   padding:0;
-  font-family: 'Roboto', serif;
+  font-family: $Font1;
   font-size: $mobile-medium;
 }
 .heart{
@@ -75,14 +75,14 @@
 
 .footer-text {
   font-size: $mobile-medium;
-  font-family: 'Roboto', serif;
+  font-family: $Font1;
   color:white;
   text-transform: uppercase;
 }
 
 .footer-networks {
   font-size: $mobile-medium;
-  font-family: 'Roboto', serif;
+  font-family: $Font1;
   color:white;
   text-transform: uppercase;
 }
@@ -90,7 +90,7 @@
 .footer-copy {
   margin: 0;
   font-size: $mobile-little;
-  font-family: 'Roboto', serif;
+  font-family: $Font1;
   text-align: center;
   vertical-align: middle;
   color:white;
@@ -98,7 +98,7 @@
 
 .love-text {
   font-size: $mobile-little;
-  font-family: 'Roboto', serif;
+  font-family: $Font1;
   color:white;
 }
 // error

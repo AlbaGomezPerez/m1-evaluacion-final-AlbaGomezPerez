@@ -7,14 +7,14 @@
   margin: 0;
   padding-left: 15px;
   padding-bottom: 30px;
-  font-family: 'Roboto', serif;
+  font-family: $Font1;
   font-size: $mobile-big;
 }
 
 .main1-pretitle {
   color: #8ccbea;
   font-size:$mobile-little;
-  font-family: 'Roboto', serif;
+  font-family: $Font1;
   margin: 0;
   padding-top: 30px;
   padding-left: 15px;
@@ -26,7 +26,7 @@
   padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-family: 'Roboto Slab', serif;
+  font-family: $Font2;
   font-weight: bold;
   font-size: $title-mobile;
 }
@@ -51,7 +51,7 @@
   padding-left: 26px;
   padding-right: 25px;
   color:#f26002;
-  font-family: 'Roboto Slab', serif;
+  font-family: $Font2;
   font-size: $mobile-extra;
   text-transform: uppercase;
 }

@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', serif;
+  font-family: $Font1;
 }
 
 .aside-contain {
@@ -31,14 +31,14 @@
   padding-top: 30px;
   width: 290px;
   font-size: $title-mobile;
-  font-family: 'Roboto Slab', serif;
+  font-family: $Font2;
   font-weight: bold;
   }
 
 .aside-detail-button {
   width: 184px;
   height: 45px;
-  font-family: 'Roboto', serif;
+  font-family: $Font1;
   font-size: $mobile-extra;
   font-weight: 500;
   font-style: normal;
