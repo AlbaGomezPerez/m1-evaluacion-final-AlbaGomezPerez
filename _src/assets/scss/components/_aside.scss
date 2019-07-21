@@ -86,10 +86,6 @@
 // TABLET & DESKTOP
 
 @media all and (min-width:768px){
-  .aside-background{
-    height: 397px;
-  }
-
   .aside-contain-list {
     display:grid;
     grid-template-columns:repeat(3, 1fr);
@@ -101,8 +97,10 @@
 
   .aside-title {
     margin: auto;
-	  text-align: center;
-	  list-style: none;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    list-style: none;
   }
 
   .aside-list1 {
@@ -119,6 +117,15 @@
     grid-column:3/4;
     grid-row:1/2;
   }
+  .aside-contain-button{
+    padding-bottom: 60px;
+  }
+  .aside-detail-button {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
 
+  }
 
 }
