@@ -54,15 +54,20 @@
   font-family: $Font2;
   font-size: $mobile-extra;
   text-transform: uppercase;
+  // transform: ease .6;
+  // transition-property: scale;
+  // transition-duration: .6s;
 }
 
 .main1-container-detail:hover {
   background-image:(linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(242,98,2,1) 68%, rgba(242,98,2,1) 100%));
   border:solid 2px $orange;
+  color:$white;
 }
 
 .main1-detail:hover {
   color: $white;
+  // transform: scale (1.1);
 }
 
 @media all and (min-width:768px){

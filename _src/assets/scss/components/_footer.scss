@@ -46,12 +46,18 @@
     50% { transform: scale(1.4); }
     to { transform: translateY(-25px); }
 }
+.footer-detail-background{
+  transition: transform ease .6s;
+}
 .footer-detail{
   animation: palpitation .6s infinite;
   transform-origin: center;
+  transition-property: scale;
+  transition-duration: .6s;
 }
 
 .footer-detail:hover {
+  transform: scale (1.1);
   background-image:(linear-gradient(top, rgba(198,247,245,1) 0%, rgba(48,66,104,1) 61%, rgba(48,66,104,1) 100%));
 }
 
