@@ -2,7 +2,6 @@
   list-style: none;
   padding: 0;
   margin:0;
-  height: 624px;
   max-width: 730px;
   display: flex;
   flex-direction: column;
@@ -20,7 +19,12 @@
 }
 .aside-subtitles{
   font-size: $mobile-big;
+  margin: 0;
 }
+.aside-paragraph{
+  margin: 0;
+}
+
 .aside-list0{
   text-align: center;
 }
@@ -35,6 +39,11 @@
   font-family: $Font2;
   font-weight: bold;
   }
+.aside-contain-button{
+  vertical-align: middle;
+  text-align: center;
+  padding-bottom: 60px;
+}
 
 .aside-detail-button {
   width: 184px;
@@ -62,10 +71,10 @@
   }
 }
 
-
 .aside-list1{
   text-align: center;
-  margin: auto;
+  margin: 0;
+  margin-top: 45px;
   vertical-align: middle;
   padding:0;
   width: 180px;
@@ -73,7 +82,8 @@
 
 .aside-list2{
   text-align: center;
-  margin: auto;
+  margin: 0;
+  margin-top: 45px;
   vertical-align: middle;
   padding:0;
   width: 180px;
@@ -82,7 +92,9 @@
 .aside-list3{
   text-align: center;
   vertical-align: middle;
-  margin: auto;
+  margin: 0;
+  margin-top: 45px;
+  margin-bottom: 45px;
   padding:0;
   width: 180px;
 }
