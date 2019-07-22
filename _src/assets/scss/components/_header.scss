@@ -9,3 +9,9 @@
   border-style: none;
 }
 
+@media all and (min-width:1200px){
+  .hero-text-container{
+    transform: translateY(400px);
+  }
+}
+

@@ -1,4 +1,3 @@
-
 .footer-background {
   background-color: $dark-blue;
   display: flex;
@@ -20,7 +19,7 @@
   transform: translateY(-25px)
 }
 
-.footer-grid-container{
+.footer-container{
   min-height: 50vw;
   margin-top: 60px;
 }
@@ -41,12 +40,11 @@
   padding-bottom: 45px;
 }
 
-
 // ANIMATION
 @keyframes palpitation {
   from { transform: translateY(-25px); }
-    50% { transform: scale(1.4); }
-    to { transform: translateY(-25px); }
+  50% { transform: scale(1.4); }
+  to { transform: translateY(-25px); }
 }
 
 .footer-detail{
@@ -72,10 +70,10 @@
   font-family: $Font1;
   font-size: $mobile-medium;
 }
+
 .heart{
   color: $orange;
 }
-
 
 .footer-text {
   font-size: $mobile-medium;
@@ -105,15 +103,18 @@
   font-family: $Font1;
   color: $white;
 }
-// error
 
 @media all and (min-width:768px){
-  .footer-grid-container {
+  .footer-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 768px;
+    box-sizing: content-box;
+    min-height: 50;
+    padding: 0;
     padding-right: 200px;
+    margin: 0;
   }
 
   .footer-grid-copy-love{
@@ -123,22 +124,30 @@
 
   .footer-container-list{
     text-align: left;
-
   }
+
   .footer-text{
     order:2;
+    margin: 0;
+    transform: translateY(-80px);
   }
 
   .footer-networks{
     order:3;
+    padding: 0;
+    transform: translateY(-100px);
+  }
+
+  .footer-grid-copy-love{
+    transform: translateY(-80px);
   }
 
   .love-text{
     text-align: left;
   }
+
   .footer-copy{
     text-align: left;
-
   }
 }
 

@@ -57,12 +57,11 @@
   font-size: $mobile-extra;
   text-transform: uppercase;
   transition: color ease 2s, font-size 0.5s;
-    &:hover {
-      color: $white;
-      font-size: 25px;
-    }
+  &:hover {
+    color: $white;
+    font-size: 25px;
+  }
 }
-
 
 .main1-container-detail:hover {
   background-image:(linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(242,98,2,1) 68%, rgba(242,98,2,1) 100%));
@@ -72,31 +71,32 @@
 
 .main1-detail:hover {
   color: $white;
-  // transform: scale (1.1);
 }
 
 @media all and (min-width:768px){
   .main1-title {
     width: 690px;
     font-size: $title-tablet;
-}
-.main1-text {
+  }
+  .main1-text {
     width: 600px;
     font-size: $tablet-little;
     padding-top: 30px;
   }
-
 }
+
 @media all and (min-width:1200px){
   .main1-title {
     width: 690px;
     font-size: $desktop-medium;
-}
+  }
+
   .main1-pretitle {
     font-size: $desktop-little;
-}
-.space-contain {
-  padding-left: 275px;
-  width: 730px;
-}
+  }
+
+  .space-contain {
+    padding-left: 275px;
+    width: 730px;
+  }
 }

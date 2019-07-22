@@ -12,15 +12,14 @@
 
 .aside-contain {
   background-color: #eff9ff;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
 }
+
 .aside-subtitles{
   font-size: $mobile-big;
   margin: 0;
+  font-weight: bold;
 }
+
 .aside-paragraph{
   margin: 0;
 }
@@ -28,6 +27,7 @@
 .aside-list0{
   text-align: center;
 }
+
 .aside-title {
   margin: auto;
   text-align: center;
@@ -38,7 +38,8 @@
   font-size: $title-mobile;
   font-family: $Font2;
   font-weight: bold;
-  }
+}
+
 .aside-contain-button{
   vertical-align: middle;
   text-align: center;
@@ -61,7 +62,7 @@
   border-radius: 30px;
   padding: 0;
   transition: color ease 2s, font-size 0.5s;
-    &:hover {
+  &:hover {
     border: solid 2px $orange;
     color:$dark-blue;
     background-image:(linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(242,98,2,1) 68%, rgba(242,98,2,1) 100%));
@@ -100,15 +101,14 @@
 }
 
 // TABLET & DESKTOP
-
 @media all and (min-width:768px){
   .aside-contain-list {
     display:grid;
     grid-template-columns:repeat(3, 1fr);
-	  margin: auto;
-	  text-align: center;
+    margin: auto;
+    text-align: center;
     height: 200px;
-	  grid-gap: 30px;
+    grid-gap: 30px;
   }
 
   .aside-title {
@@ -122,17 +122,21 @@
   .aside-list1 {
     grid-column:1/2;
     grid-row:1/2;
+    margin: auto;
   }
 
   .aside-list2 {
     grid-column:2/3;
     grid-row:1/2;
+    margin: auto;
   }
 
   .aside-list3 {
     grid-column:3/4;
     grid-row:1/2;
+    margin: auto;
   }
+
   .aside-contain-button{
     padding-bottom: 60px;
   }
@@ -142,7 +146,6 @@
     margin: auto;
     text-align: center;
     justify-content: center;
-
   }
 
 }
