@@ -51,13 +51,17 @@
   border: none;
   border-radius: 30px;
   padding: 0;
+  transition: color ease 2s, font-size 0.5s;
     &:hover {
     border: solid 2px $orange;
+    color:$dark-blue;
     background-image:(linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(242,98,2,1) 68%, rgba(242,98,2,1) 100%));
     width: 194px;
     height: 55px;
+    font-size: 25px;
   }
 }
+
 
 .aside-list1{
   text-align: center;
